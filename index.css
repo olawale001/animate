@@ -1,0 +1,21 @@
+.dog{
+    width: 40px;
+    height: 30px;
+    background-color: red;
+    transition: width 2s, height 4s;
+}
+
+.dog:hover{
+    width: 120px;
+    height: 70px;
+}
+
+.mug{
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    /* transform: translate(50px, 100px); */
+    /* transform: scale(1.10); */
+    /* transform: rotate(270deg); */
+    transform: matrix(1,2,3,4,5,6);
+}

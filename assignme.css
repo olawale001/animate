@@ -1,0 +1,126 @@
+.worldme {
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+  border-radius: 200px;
+  overflow: hidden;
+  animation: goow 3ms infinite;
+  position: relative;
+
+  
+}
+
+
+@keyframes goow{
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(180deg);}
+  75%{transform: rotate(270deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+
+
+
+.mymonie {
+  display: flex;
+}
+.plate {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation: first 7s infinite;
+  position: relative;
+  transform: rotate(360deg);
+}
+
+/*@keyframes first{
+  25%{top: 25px; right: 25px; bottom: 25px; left: 25px;}
+  50%{bottom: 25px; left: 25px; top: 25px; right: 25px;}
+  75%{left: 25px; top: 25px; right: 25px; bottom: 25px;}
+  100%{right: 25px; bottom: 25px; left: 25px; top: 25px;}
+}*/
+
+
+
+
+
+.planet {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  animation: goowse 7s infinite;
+  position: relative;
+  transform: rotate(360deg);
+}
+
+/*@keyframes goowse{
+  25%{bottom: 25px; left: 25px; top: 25px; right: 25px;}
+  50%{left: 25px; top: 25px; right: 25px; bottom: 25px;}
+  75%{top: 25px; right: 25px; bottom: 25px; left: 25px;}
+  100%{right: 25px; bottom: 25px; left: 25px; top: 25px;}
+}*/
+
+.mycard {
+  display: flex;
+}
+
+.teamup {
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+  animation: girls 7s infinite;
+  position: relative;
+  transform: rotate(360deg);
+}
+
+/*@keyframes girls{
+  25%{top: 25px; right: 25px; bottom: 25px; left: 25px;}
+  50%{right: 25px; bottom: 25px; left: 25px; top: 25px;}
+  75%{bottom: 25px; left: 25px; top: 25px; right: 25px;}
+  100%{left: 25px; top: 25px; right: 25px; bottom: 25px;}
+}*/
+
+.myteam {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+  text-align: center;
+  animation: baddog 7s infinite;
+  position: relative;
+  transform: rotate(360deg);        
+}
+
+/*@keyframes baddog{
+  25%{left: 25px; top: 25px; right: 25px; bottom: 25px;}
+  50%{top: 25px; right: 25px; bottom: 25px; left: 25px;}
+  75%{right: 25px; bottom: 25px; left: 25px; top: 25px;}
+  100%{bottom: 25px; left: 25px; top: 25px; right: 25px;}
+}*/
+
+
+.first {
+  text-align: center;
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.second {
+  text-align: right;
+  font-size: 45px;
+  margin-top: 80px;
+  float: inline-start;
+}
+
+.third {
+  text-align: center;
+  font-size: 45px;
+}
+
+.forty {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  float: left;
+}
